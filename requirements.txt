@@ -1,8 +1,10 @@
 streamlit
-pandas
 nselib
-libutil 
-constants 
+requests
+pandas
+scipy
+
+
 
 
 
