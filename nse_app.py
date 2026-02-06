@@ -47,7 +47,9 @@ with st.sidebar:
     # Date Range
     st.subheader("Date Range")
     default_start = dt.date(2026, 1, 1)
-    default_end = dt.date(2026, 2, 5)
+    # default_end = dt.date(2026, 2, 5)
+    default_end = dt.date.today() 
+    
     
     start_date_input = st.date_input("Start Date", default_start)
     end_date_input = st.date_input("End Date", default_end)
@@ -166,4 +168,5 @@ if run_btn:
         st.info("No data found matching the criteria. Please check dates and expiry inputs.")
 
   
+
 
