@@ -1,6 +1,7 @@
 streamlit
 pandas
 nselib
-from nselib.libutil import *
-from nselib.constants import *
+nselib.libutil 
+nselib.constants 
+
 
