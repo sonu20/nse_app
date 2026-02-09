@@ -40,7 +40,7 @@ with st.sidebar:
     
     # Symbol Selection
     # You can expand this list or fetch it dynamically if needed
-    symbol_list = ['NIFTY','BANKNIFTY','ASHOKLEY', 'AXISBANK', 'BANKINDIA', 'COALINDIA', 'HCLTECH', 'INFYNESTLEIND', 'LUPIN', 'MCX', 'SBIN', 'TATASTEEL', 'TCS']
+    symbol_list = ['NIFTY','BANKNIFTY','ASHOKLEY', 'AXISBANK', 'BANKINDIA', 'COALINDIA', 'HCLTECH', 'INFY','NESTLEIND', 'LUPIN', 'MCX', 'SBIN', 'TATASTEEL', 'TCS']
 
     selected_symbol = st.selectbox("Select Symbol", symbol_list, index=symbol_list.index('NIFTY') if 'NIFTY' in symbol_list else 0)
 
@@ -168,5 +168,6 @@ if run_btn:
         st.info("No data found matching the criteria. Please check dates and expiry inputs.")
 
   
+
 
 
